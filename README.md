@@ -1,5 +1,7 @@
 # Ian Xiaohei Illustrations
 
+**简体中文** · [English](README.en.md) · [日本語](README.ja.md)
+
 > 把文章里的判断、流程、状态和隐喻，变成一张张白底、手绘、怪诞但清爽的正文配图。正文可以是任意语言，图上批注跟随正文语言。
 >
 > 16:9 横版 | 小黑 IP | 纯白手绘 | 少量红橙蓝手写批注 | 多语言 | Codex Skill
@@ -160,6 +162,15 @@ Use $ian-xiaohei-illustrations 为“信任不是喊出来的，而是一块证�
 画面要怪诞但清爽，小黑必须承担核心动作。
 ```
 
+### 指定标注语言
+
+```text
+Use $ian-xiaohei-illustrations 为下面这篇中文文章生成 3 张正文配图。
+正文是中文，但图上标注请全部用英文，每处 1-4 个词，不要中英混写。
+
+<粘贴文章>
+```
+
 ### 去掉图里的标题或错误文字
 
 ```text
@@ -191,6 +202,8 @@ Use $ian-xiaohei-illustrations 帮我编辑这张图，去掉左上角的“流�
 ```text
 .
 ├── README.md
+├── README.en.md
+├── README.ja.md
 ├── LICENSE
 ├── NOTICE.md
 ├── assets/
@@ -221,7 +234,7 @@ Use $ian-xiaohei-illustrations 帮我编辑这张图，去掉左上角的“流�
 ian-xiaohei-illustrations/
 ```
 
-根目录的 README、LICENSE、NOTICE 和 examples 是 GitHub 分享文档。
+根目录的 README（中/英/日）、LICENSE、NOTICE 和 examples 是 GitHub 分享文档。
 
 ---
 
