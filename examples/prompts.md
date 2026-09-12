@@ -14,7 +14,7 @@ Use $ian-xiaohei-illustrations 先不要生图。
 - 结构类型
 - 小黑在图里做什么
 - 建议元素
-- 建议中文标注词
+- 建议标注词（语言跟随正文）
 
 <粘贴文章>
 ```
@@ -23,7 +23,7 @@ Use $ian-xiaohei-illustrations 先不要生图。
 
 ```text
 Use $ian-xiaohei-illustrations 把下面这篇文章生成 4 张小黑怪诞正文配图。
-要求：16:9 横版、纯白背景、黑色手绘线稿、少量红橙蓝中文手写批注。
+要求：16:9 横版、纯白背景、黑色手绘线稿、少量红橙蓝手写批注（语言跟随正文）。
 每张图只讲一个核心结构，不要做 PPT 信息图，不要可爱卡通。
 
 <粘贴文章>
@@ -47,7 +47,7 @@ Use $ian-xiaohei-illustrations 为这个观点生成一张 16:9 正文配图：
 信任不是喊出来的，而是一块证据一块证据铺过去。
 
 画面要怪诞但清爽，小黑必须承担核心动作。
-中文标注最多 5 个，短一点。
+标注最多 5 个，短一点。
 ```
 
 ## 工作流主题
@@ -80,4 +80,23 @@ Use $ian-xiaohei-illustrations 这张图方向对，但小黑有点像装饰。
 Use $ian-xiaohei-illustrations 输出 5 个不同主题的小黑正文配图效果。
 主题分别覆盖：信息过载、产品验证、内容复利、一人公司、信任建立。
 每张单独生成，不要拼成一张。
+```
+
+## 英文文章配图
+
+```text
+Use $ian-xiaohei-illustrations to design and generate 4 article illustrations for the English post below.
+16:9, pure white background, black hand-drawn line art, sparse red/orange/blue handwritten English labels.
+One core structure per image. 小黑 must perform the core action. No PPT infographic, no cute cartoon.
+
+<paste article>
+```
+
+## 指定标注语言
+
+```text
+Use $ian-xiaohei-illustrations 为下面这篇中文文章生成 3 张正文配图。
+正文是中文，但图上标注请全部用英文，每处 1-4 个词，不要中英混写。
+
+<粘贴文章>
 ```
